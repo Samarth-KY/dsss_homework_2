@@ -1,6 +1,5 @@
 import random
 
-
 def generate_random_int(lower_limit, upper_limit):
     """
     Generates a random integer within the specified limits.
@@ -73,7 +72,6 @@ def math_operation(number1, number2, operator):
         
         # Generate the expression string
         problem = f"{number1} {operator} {number2}"
-
         # Return the expression string and answer of the math operation
         return problem, answer
     
